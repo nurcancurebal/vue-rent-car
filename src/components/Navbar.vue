@@ -4,7 +4,6 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-
         <!-- Right aligned nav items -->
         <b-navbar-nav>
           <b-nav-item href="/"><b-icon-house></b-icon-house>Home</b-nav-item>
@@ -25,7 +24,6 @@
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown right>
-
             <!-- User droppdown menu items -->
             <template v-slot:button-content>
               <em>User</em>

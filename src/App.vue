@@ -7,7 +7,6 @@
 </template>
 
 <script>
-
 import globalComponent from "./components/globalComponent";
 
 export default {
