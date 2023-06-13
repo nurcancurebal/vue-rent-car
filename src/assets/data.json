@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "title": "Renault Clio",
+            "about": "Dizel/Benzin",
+            "price": "1.640,94 TL",
+            "image": [
+                "https://www.avis.com.tr/Avis/media/Avis/Cars/b-renault-clio.png"
+            ]
+        },
+        {
+            "title": "Fiat Egea",
+            "about": "Dizel/Benzin",
+            "price": "1.682,89 TL",
+            "image": [
+                "https://www.avis.com.tr/Avis/media/Avis/Cars/n-fiat-egea.png"
+            ]
+        },
+        {
+            "title": "Renault Clio AT",
+            "about": "Dizel/Benzin",
+            "price": "1.868,53 TL",
+            "image": [
+                "https://www.avis.com.tr/Avis/media/Avis/Cars/f-renault-clio-at.png"
+            ]
+        },
+        {
+            "title": "Fiat Egea",
+            "about": "Hybrid/Benzin/Dizel",
+            "price": "2.000,29 TL",
+            "image": [
+                "https://www.avis.com.tr/Avis/media/Avis/Cars/a-fiat-egea.png"
+            ]
+        },
+        {
+            "title": "Renault Megane",
+            "about": "Hybrid/Benzin/Dizel",
+            "price": "2.380,08 TL",
+            "image": [
+                "https://www.avis.com.tr/Avis/media/Avis/Cars/o-renault-megane.png"
+            ]
+        },
+        {
+            "title": "Peugeot 2008",
+            "about": "Hybrid/Benzin/Dizel",
+            "price": "2.613,96 TL",
+            "image": [
+                "https://www.avis.com.tr/Avis/media/Avis/Cars/p-peugeot-2008.png"
+            ]
+        }
+    ]
+}
