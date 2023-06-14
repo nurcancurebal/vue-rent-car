@@ -37,12 +37,8 @@
               </b-card-text>
               <div class="priceBucket">
                 <b-card-text class="priceText"> ${{ item.price }} </b-card-text>
-                <b-icon
-                  class="h4 mb-2"
-                  icon="bucket"
-                  variant="danger"
-                  @click="modalShow = !modelShow"
-                ></b-icon>
+                <button @click="getInformation">Get Information</button>
+                {{ this.$store.state.carInfo }}
               </div>
             </b-card-body>
           </b-col>
@@ -61,6 +57,11 @@ export default {
     return {
       modalShow: false,
     };
+  },
+  methods: {
+    getInformation() {
+      this.$store.commit("setInformation", this.item);
+    },
   },
 };
 </script>

@@ -5,13 +5,11 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-  },
-  getters: {
+    carInfo: null
   },
   mutations: {
-  },
-  actions: {
-  },
-  modules: {
+    setInformation(state, value) {
+      state.carInfo = value
+    }
   }
 })
