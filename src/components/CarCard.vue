@@ -4,7 +4,7 @@
       no-body
       class="overflow-hidden"
       style="max-width: 540px"
-      @click="modalShow = !modelShow"
+      @click="modalShow = !modalShow"
     >
       <b-row no-gutters>
         <b-col md="6">
