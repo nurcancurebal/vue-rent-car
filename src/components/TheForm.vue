@@ -33,7 +33,7 @@
       ></b-form-datepicker>
       <b-form-timepicker v-model="returnTime" locale="en"></b-form-timepicker>
     </div>
-    <b-button class="mt-3" @click="gotoRent()" block variant="outline-dark"
+    <b-button class="mt-3" @click="gotoRent" block variant="outline-dark"
       >Search</b-button
     >
   </b-form>
