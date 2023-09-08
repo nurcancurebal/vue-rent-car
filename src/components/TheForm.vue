@@ -1,27 +1,32 @@
 <template>
-  <b-form class="formReservation" @submit.stop.prevent>
+  <b-form
+    class="formReservation"
+    style="margin-left: 200px"
+    @submit.stop.prevent
+  >
     <label class="mr-sm-2">Pick location</label>
     <b-form-select
       v-model="pickLocationValue"
       :options="pickLocation"
       size="sm"
       class="mt-1"
-    ></b-form-select>
+    />
     <label class="mr-sm-2 mt-2">Return location</label>
     <b-form-select
       v-model="returnLocationValue"
       :options="returnLocation"
       size="sm"
       class="mt-1"
-    ></b-form-select>
+    />
     <label class="mt-3" for="example-datepicker">Choose a pick date</label>
     <div class="timeClass">
       <b-form-datepicker
         id="example-datepicker"
         v-model="pickDate"
         class="mr-2"
-      ></b-form-datepicker>
-      <b-form-timepicker v-model="pickTime" locale="en"></b-form-timepicker>
+      />
+
+      <b-form-timepicker v-model="pickTime" locale="en" />
     </div>
 
     <label class="mt-2" for="example-datepicker">Choose a return date</label>
@@ -30,12 +35,12 @@
         id="example-datepicker"
         v-model="returnDate"
         class="mr-2"
-      ></b-form-datepicker>
-      <b-form-timepicker v-model="returnTime" locale="en"></b-form-timepicker>
+      />
+      <b-form-timepicker v-model="returnTime" locale="en" />
     </div>
-    <b-button class="mt-3" @click="gotoRent" block variant="outline-dark"
-      >Search</b-button
-    >
+    <b-button class="mt-3" @click="gotoRent" block variant="outline-dark">
+      Search
+    </b-button>
   </b-form>
 </template>
 

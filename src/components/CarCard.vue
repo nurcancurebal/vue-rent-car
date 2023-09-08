@@ -8,7 +8,7 @@
     >
       <b-row no-gutters>
         <b-col md="6">
-          <b-card-img :src="item.image[0]" class="rounded-0"></b-card-img>
+          <b-card-img :src="item.image[0]" class="rounded-0" />
         </b-col>
         <b-col md="6">
           <b-card-body :title="item.title">
@@ -17,7 +17,7 @@
             </b-card-text>
             <div class="priceBucket">
               <b-card-text class="priceText"> ${{ item.price }} </b-card-text>
-              <b-icon class="h4 mb-2" icon="bucket" variant="danger"></b-icon>
+              <b-icon class="h4 mb-2" icon="bucket" variant="danger" />
             </div>
           </b-card-body>
         </b-col>
@@ -28,7 +28,7 @@
       <b-card no-body class="overflow-hidden" style="max-width: 540px">
         <b-row no-gutters>
           <b-col md="6">
-            <b-card-img :src="item.image[0]" class="rounded-0"></b-card-img>
+            <b-card-img :src="item.image[0]" class="rounded-0" />
           </b-col>
           <b-col md="6">
             <b-card-body :title="item.title">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="dark">
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-navbar-toggle target="nav-collapse" />
 
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
@@ -14,7 +14,7 @@
         <!-- Left aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="#">Blog</b-nav-item>
-          <b-nav-item href="#">About Us</b-nav-item>
+          <b-nav-item href="/about">About Us</b-nav-item>
           <b-nav-item href="#">Contact</b-nav-item>
 
           <!-- Language droppdown menu items -->
